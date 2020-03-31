@@ -57,21 +57,9 @@
         	<artifactId>libSBOLj</artifactId>
         	<version>2.1.0</version>
         </dependency>
-        <dependency>
-           <groupId>com.amazonaws</groupId>
-           <artifactId>aws-java-sdk-dynamodb</artifactId>
-           <version>1.11.297</version>
-        </dependency>
     </dependencies>
     <properties>
         <jersey.version>2.30</jersey.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <repositories>
-    <repository>
-       <id>dynamodb-local-oregon</id>
-       <name>DynamoDB Local Release Repository</name>
-       <url>https://s3-us-west-2.amazonaws.com/dynamodb-local/release</url>
-    </repository>
-</repositories>
 </project>
